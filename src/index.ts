@@ -1,0 +1,38 @@
+/**
+ * CE.SDK Viewer Starterkit - Main Entry Point
+ *
+ * A read-only viewer for design preview and approval workflows.
+ *
+ * @see https://img.ly/docs/cesdk/js/getting-started/
+ */
+
+import CreativeEditorSDK from '@cesdk/cesdk-js';
+
+import { initDesignViewer } from './imgly';
+
+// ============================================================================
+// Configuration
+// ============================================================================
+
+const config = {
+  userId: 'starterkit-viewer-user',
+
+  // Local assets
+  // baseURL: `/assets/`,
+};
+
+// ============================================================================
+// Initialize Viewer
+// ============================================================================
+
+CreativeEditorSDK.create('#cesdk_container', config)
+  .then(async (cesdk) => {
+    // Debug access (remove in production)
+    (window as any).cesdk = cesdk;
+
+    await initDesignViewer(cesdk);
+  })
+  .catch((error) => {
+    // eslint-disable-next-line no-console
+    console.error('Failed to initialize CE.SDK:', error);
+  });
