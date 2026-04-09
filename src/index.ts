@@ -15,7 +15,7 @@ import { initDesignViewer } from './imgly';
 // ============================================================================
 
 const config = {
-  userId: 'starterkit-viewer-user',
+  userId: 'starterkit-viewer-user'
 
   // Local assets
   // baseURL: `/assets/`,
