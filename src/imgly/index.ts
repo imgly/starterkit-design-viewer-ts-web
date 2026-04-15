@@ -39,18 +39,4 @@ export async function initDesignViewer(cesdk: CreativeEditorSDK) {
   // cesdk.setTheme('dark');
   // cesdk.setLocale('en');
 
-  // ============================================================================
-  // Scene Loading
-  // ============================================================================
-
-  await cesdk.loadFromArchiveURL(
-    'https://cdn.img.ly/packages/imgly/plugin-marketing-asset-source-web/1.0.0/assets/templates/1-1-marketing-multipost.zip'
-  );
-
-  // Zoom to fit the content with padding
-  cesdk.actions.run('zoom.toPage', {
-    page: 'first',
-    autoFit: true,
-    padding: 24
-  });
 }

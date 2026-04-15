@@ -15,7 +15,7 @@ import { initDesignViewer } from './imgly';
 // ============================================================================
 
 const config = {
-  userId: 'starterkit-viewer-user',
+  userId: 'starterkit-viewer-user'
 
   // Local assets
   // baseURL: `/assets/`,
@@ -31,6 +31,20 @@ CreativeEditorSDK.create('#cesdk_container', config)
     (window as any).cesdk = cesdk;
 
     await initDesignViewer(cesdk);
+
+    // ============================================================================
+    // Scene Loading
+    // ============================================================================
+
+    await cesdk.loadFromArchiveURL(
+      'https://cdn.img.ly/packages/imgly/plugin-marketing-asset-source-web/1.0.0/assets/templates/1-1-marketing-multipost.zip'
+    );
+
+    cesdk.actions.run('zoom.toPage', {
+      page: 'first',
+      autoFit: true,
+      padding: 24
+    });
   })
   .catch((error) => {
     // eslint-disable-next-line no-console
