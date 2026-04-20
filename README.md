@@ -3,8 +3,7 @@
 Lightweight design viewing for your web app — pan, zoom, and navigate multi-page designs. Built with [CE.SDK](https://img.ly/creative-sdk) by [IMG.LY](https://img.ly), runs entirely in the browser with no server dependencies.
 
 <p>
-  <a href="https://img.ly/docs/cesdk/starterkits/viewer/">Documentation</a> |
-  <a href="https://img.ly/showcases/cesdk">Live Demo</a>
+  <a href="https://img.ly/docs/cesdk/js/starterkits/viewer-zgs556/">Documentation</a>
 </p>
 
 ![Design Viewer starter kit showing a design viewing interface with zoom controls](./hero.webp)
