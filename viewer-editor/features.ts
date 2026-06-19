@@ -27,7 +27,7 @@ export function setupFeatures(cesdk: CreativeEditorSDK): void {
     // 'ly.img.navigation.back', /* "Back" button */
     // 'ly.img.navigation.close', /* "Close" button */
     // 'ly.img.navigation.undoRedo', /* "Undo" and "Redo" buttons */
-    'ly.img.navigation.zoom' /* Zoom controls */
+    'ly.img.navigation.zoom' /* Zoom controls */,
     // 'ly.img.navigation.actions', /* Actions dropdown */
     // 'ly.img.navigation.documentSettings', /* Document settings button */
     // 'ly.img.navigation.*', /* All navigation features */
@@ -86,6 +86,7 @@ export function setupFeatures(cesdk: CreativeEditorSDK): void {
     // 'ly.img.text.background.picker.opacity', /* Alpha/opacity slider */
     // 'ly.img.text.background.library', /* Swatch library */
     // 'ly.img.text.*', /* All text features */
+    // 'ly.img.text.styles', /* Styles button (style presets) in Canvas Menu */
 
     /* ============================== */
     /* Effects                        */
@@ -227,6 +228,11 @@ export function setupFeatures(cesdk: CreativeEditorSDK): void {
     // 'ly.img.notifications', /* Global notifications visibility */
     // 'ly.img.notifications.undo', /* Undo notifications */
     // 'ly.img.notifications.redo', /* Redo notifications */
+
+    /* ============================== */
+    /* Keyboard Shortcuts             */
+    /* ============================== */
+    'ly.img.keyboard.shortcuts' /* Enable keyboard shortcuts */,
 
     /* ============================== */
     /* Placeholder                    */
