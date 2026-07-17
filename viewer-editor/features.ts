@@ -87,6 +87,12 @@ export function setupFeatures(cesdk: CreativeEditorSDK): void {
     // 'ly.img.text.background.library', /* Swatch library */
     // 'ly.img.text.*', /* All text features */
     // 'ly.img.text.styles', /* Styles button (style presets) in Canvas Menu */
+    // 'ly.img.text.path', /* Text on a path / circle */
+    // 'ly.img.text.path.curve', /* Curve picker (None/Circle/Arch/Wave/Elevate) */
+    // 'ly.img.text.path.position', /* Path Position (Top/Center/Bottom) */
+    // 'ly.img.text.path.direction', /* Direction (Forward/Reversed) */
+    // 'ly.img.text.path.offset', /* Offset slider */
+    // 'ly.img.text.path.edit', /* Edit Path button (also requires ly.img.vectorEdit) */
 
     /* ============================== */
     /* Effects                        */
@@ -232,7 +238,7 @@ export function setupFeatures(cesdk: CreativeEditorSDK): void {
     /* ============================== */
     /* Keyboard Shortcuts             */
     /* ============================== */
-    'ly.img.keyboard.shortcuts' /* Enable keyboard shortcuts */,
+    'ly.img.keyboard.shortcuts' /* Enable keyboard shortcuts */
 
     /* ============================== */
     /* Placeholder                    */
