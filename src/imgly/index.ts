@@ -10,10 +10,10 @@
 import type CreativeEditorSDK from '@cesdk/cesdk-js';
 
 // Configuration
-import { ViewerConfig } from '../../viewer-editor/plugin';
+import { ViewerConfig } from './config/plugin';
 
 // Re-export for external use
-export { ViewerConfig } from '../../viewer-editor/plugin';
+export { ViewerConfig } from './config/plugin';
 
 /**
  * Initialize the CE.SDK Viewer with a complete configuration.
