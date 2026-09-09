@@ -66,6 +66,13 @@ export class ViewerConfig implements EditorPlugin {
     cesdk.resetEditor();
     // #endregion
 
+    // #region Compatibility
+    // The CE.SDK generation the calls below were written for. Pinned to a
+    // literal at publish time, so upgrading CE.SDK in a copy of this kit
+    // keeps the editor behaving as it did when the kit was taken.
+    cesdk.setEditorCompatibilityVersion('1.82.0-rc.2');
+    // #endregion
+
     // #region Feature Configuration
     // Configure minimal features for view-only mode
     // See features.ts for all disabled feature options
