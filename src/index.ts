@@ -3,7 +3,7 @@
  *
  * A read-only viewer for design preview and approval workflows.
  *
- * @see https://img.ly/docs/cesdk/js/getting-started/
+ * @see https://img.ly/docs/cesdk/js/get-started/overview-e18f40/
  */
 
 import CreativeEditorSDK from '@cesdk/cesdk-js';
@@ -38,7 +38,7 @@ CreativeEditorSDK.create('#cesdk_container', config)
     // Scene Loading
     // ============================================================================
 
-    await cesdk.loadFromURL(
+    await cesdk.load(
       'https://cdn.img.ly/packages/imgly/plugin-marketing-asset-source-web/1.0.0/assets/templates/1-1-marketing-multipost/scene.scene'
     );
 

@@ -4,16 +4,16 @@
  * This module provides the main entry point for initializing the viewer.
  * Import and call `initDesignViewer()` to configure a CE.SDK instance for viewing.
  *
- * @see https://img.ly/docs/cesdk/js/getting-started/
+ * @see https://img.ly/docs/cesdk/js/get-started/overview-e18f40/
  */
 
 import type CreativeEditorSDK from '@cesdk/cesdk-js';
 
 // Configuration
-import { ViewerConfig } from '../../viewer-editor/plugin';
+import { ViewerConfig } from './config/plugin';
 
 // Re-export for external use
-export { ViewerConfig } from '../../viewer-editor/plugin';
+export { ViewerConfig } from './config/plugin';
 
 /**
  * Initialize the CE.SDK Viewer with a complete configuration.
