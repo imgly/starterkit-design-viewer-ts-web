@@ -63,6 +63,7 @@ export function setupInspectorBar(cesdk: CreativeEditorSDK): void {
   //     'ly.img.fill.inspectorBar',
   //     'ly.img.stroke.inspectorBar',
   //     'ly.img.text.background.inspectorBar',
+  //     'ly.img.text.path.inspectorBar',
   //     'ly.img.separator',
   //
   //     /* ============================== */
