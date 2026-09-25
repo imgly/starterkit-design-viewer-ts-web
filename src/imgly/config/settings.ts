@@ -113,6 +113,15 @@ export function setupSettings(cesdk: CreativeEditorSDK): void {
 
   // Highlight page boundaries when cropping for better visual feedback
   // engine.editor.setSetting('page/highlightWhenCropping', true);
+
+  // The safety margin marks where content must stay, so only its line is
+  // needed. The wash over the band reads as a second bleed margin.
+  engine.editor.setSettingColor('page/safetyFillColor', {
+    r: 0,
+    g: 0,
+    b: 0,
+    a: 0
+  });
   // #endregion
 
   // #region Page Title Settings
