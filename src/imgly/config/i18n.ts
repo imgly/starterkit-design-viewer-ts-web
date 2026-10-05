@@ -29,14 +29,14 @@ export function setupTranslations(cesdk: CreativeEditorSDK): void {
   // Example: Override built-in labels with custom text
   // cesdk.i18n.setTranslations({
   //   en: {
-  //     'component.navigation.zoom.fit': 'Fit to Screen',
-  //     'component.navigation.zoom.in': 'Zoom In',
-  //     'component.navigation.zoom.out': 'Zoom Out',
+  //     'component.zoom.fitPage': 'Fit to Screen',
+  //     'component.zoom.in': 'Zoom In',
+  //     'component.zoom.out': 'Zoom Out',
   //   },
   //   de: {
-  //     'component.navigation.zoom.fit': 'An Bildschirm anpassen',
-  //     'component.navigation.zoom.in': 'Vergrößern',
-  //     'component.navigation.zoom.out': 'Verkleinern',
+  //     'component.zoom.fitPage': 'An Bildschirm anpassen',
+  //     'component.zoom.in': 'Vergrößern',
+  //     'component.zoom.out': 'Verkleinern',
   //   }
   // });
 
