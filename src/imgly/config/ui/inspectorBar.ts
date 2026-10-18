@@ -84,11 +84,11 @@ export function setupInspectorBar(cesdk: CreativeEditorSDK): void {
   //         'ly.img.adjustment.inspectorBar',
   //         'ly.img.filter.inspectorBar',
   //         'ly.img.effect.inspectorBar',
-  //         'ly.img.blur.inspectorBar',
-  //         'ly.img.separator',
-  //         'ly.img.shadow.inspectorBar'
+  //         'ly.img.blur.inspectorBar'
   //       ]
   //     },
+  //     'ly.img.separator',
+  //     'ly.img.shadow.inspectorBar',
   //     'ly.img.separator',
   //
   //     /* ============================== */

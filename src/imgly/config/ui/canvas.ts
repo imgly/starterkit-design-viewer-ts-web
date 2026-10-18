@@ -24,6 +24,7 @@ export function setupCanvas(cesdk: CreativeEditorSDK): void {
   //   [
   //     'ly.img.spacer',
   //     'ly.img.page.add.canvasBar',
+  //     'ly.img.pageNavigation.canvasBar',
   //     'ly.img.spacer',
   //   ]
   // );
@@ -57,6 +58,8 @@ export function setupCanvas(cesdk: CreativeEditorSDK): void {
   //     /* ============================== */
   //     'ly.img.bringForward.canvasMenu',
   //     'ly.img.sendBackward.canvasMenu',
+  //     'ly.img.bringToFront.canvasMenu',
+  //     'ly.img.sendToBack.canvasMenu',
   //     'ly.img.separator',
   //
   //     /* ============================== */
